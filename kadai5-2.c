@@ -4,7 +4,7 @@
 int main() {
     double a=1.0,b,inf=INFINITY;
     while(a<inf){
-        a*=(1.0+1.0);
+        a*=2;
         if(a<inf) {
             b=a;
         }
